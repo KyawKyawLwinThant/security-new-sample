@@ -28,7 +28,6 @@ public class EmployeesController {
         return new ModelAndView("employees"
                 ,"employees",employeeDao.findAll());
     }
-
     @IsEmployeesCreate
     @GetMapping("/create-employee")
     public String ceateEmployee(Model model){

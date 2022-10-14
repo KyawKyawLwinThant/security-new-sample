@@ -11,6 +11,6 @@ import static com.example.springsecuritymaster.security.SecurityRoles.*;
 
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-@Secured(ROLES_PREFIX + DEPARTMENTS_ADMIN)
-public @interface IsDepartmentsAdmin {
+@Secured(ROLES_PREFIX + DEPARTMENTS_CREATE)
+public @interface IsDepartmentsCreate {
 }
